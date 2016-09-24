@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C20F74131D96099600603B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F74121D96099600603B70 /* AppDelegate.swift */; };
+		C20F74151D96099600603B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F74141D96099600603B70 /* ViewController.swift */; };
+		C20F74181D96099600603B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20F74161D96099600603B70 /* Main.storyboard */; };
+		C20F741A1D96099600603B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C20F74191D96099600603B70 /* Assets.xcassets */; };
+		C20F741D1D96099600603B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C20F741B1D96099600603B70 /* LaunchScreen.storyboard */; };
+		C20F74281D96099600603B70 /* GitnoobTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F74271D96099600603B70 /* GitnoobTests.swift */; };
+		C20F74331D96099600603B70 /* GitnoobUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20F74321D96099600603B70 /* GitnoobUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C20F74241D96099600603B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C20F74071D96099600603B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20F740E1D96099600603B70;
+			remoteInfo = Gitnoob;
+		};
+		C20F742F1D96099600603B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C20F74071D96099600603B70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C20F740E1D96099600603B70;
+			remoteInfo = Gitnoob;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C20F740F1D96099600603B70 /* Gitnoob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gitnoob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20F74121D96099600603B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C20F74141D96099600603B70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C20F74171D96099600603B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C20F74191D96099600603B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C20F741C1D96099600603B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C20F741E1D96099600603B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20F74231D96099600603B70 /* GitnoobTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitnoobTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20F74271D96099600603B70 /* GitnoobTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitnoobTests.swift; sourceTree = "<group>"; };
+		C20F74291D96099600603B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C20F742E1D96099600603B70 /* GitnoobUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitnoobUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C20F74321D96099600603B70 /* GitnoobUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitnoobUITests.swift; sourceTree = "<group>"; };
+		C20F74341D96099600603B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C20F740C1D96099600603B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20F74201D96099600603B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20F742B1D96099600603B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C20F74061D96099600603B70 = {
+			isa = PBXGroup;
+			children = (
+				C20F74111D96099600603B70 /* Gitnoob */,
+				C20F74261D96099600603B70 /* GitnoobTests */,
+				C20F74311D96099600603B70 /* GitnoobUITests */,
+				C20F74101D96099600603B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C20F74101D96099600603B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C20F740F1D96099600603B70 /* Gitnoob.app */,
+				C20F74231D96099600603B70 /* GitnoobTests.xctest */,
+				C20F742E1D96099600603B70 /* GitnoobUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C20F74111D96099600603B70 /* Gitnoob */ = {
+			isa = PBXGroup;
+			children = (
+				C20F74121D96099600603B70 /* AppDelegate.swift */,
+				C20F74141D96099600603B70 /* ViewController.swift */,
+				C20F74161D96099600603B70 /* Main.storyboard */,
+				C20F74191D96099600603B70 /* Assets.xcassets */,
+				C20F741B1D96099600603B70 /* LaunchScreen.storyboard */,
+				C20F741E1D96099600603B70 /* Info.plist */,
+			);
+			path = Gitnoob;
+			sourceTree = "<group>";
+		};
+		C20F74261D96099600603B70 /* GitnoobTests */ = {
+			isa = PBXGroup;
+			children = (
+				C20F74271D96099600603B70 /* GitnoobTests.swift */,
+				C20F74291D96099600603B70 /* Info.plist */,
+			);
+			path = GitnoobTests;
+			sourceTree = "<group>";
+		};
+		C20F74311D96099600603B70 /* GitnoobUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C20F74321D96099600603B70 /* GitnoobUITests.swift */,
+				C20F74341D96099600603B70 /* Info.plist */,
+			);
+			path = GitnoobUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C20F740E1D96099600603B70 /* Gitnoob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20F74371D96099600603B70 /* Build configuration list for PBXNativeTarget "Gitnoob" */;
+			buildPhases = (
+				C20F740B1D96099600603B70 /* Sources */,
+				C20F740C1D96099600603B70 /* Frameworks */,
+				C20F740D1D96099600603B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gitnoob;
+			productName = Gitnoob;
+			productReference = C20F740F1D96099600603B70 /* Gitnoob.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C20F74221D96099600603B70 /* GitnoobTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20F743A1D96099600603B70 /* Build configuration list for PBXNativeTarget "GitnoobTests" */;
+			buildPhases = (
+				C20F741F1D96099600603B70 /* Sources */,
+				C20F74201D96099600603B70 /* Frameworks */,
+				C20F74211D96099600603B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20F74251D96099600603B70 /* PBXTargetDependency */,
+			);
+			name = GitnoobTests;
+			productName = GitnoobTests;
+			productReference = C20F74231D96099600603B70 /* GitnoobTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C20F742D1D96099600603B70 /* GitnoobUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C20F743D1D96099600603B70 /* Build configuration list for PBXNativeTarget "GitnoobUITests" */;
+			buildPhases = (
+				C20F742A1D96099600603B70 /* Sources */,
+				C20F742B1D96099600603B70 /* Frameworks */,
+				C20F742C1D96099600603B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C20F74301D96099600603B70 /* PBXTargetDependency */,
+			);
+			name = GitnoobUITests;
+			productName = GitnoobUITests;
+			productReference = C20F742E1D96099600603B70 /* GitnoobUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C20F74071D96099600603B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "abiem design";
+				TargetAttributes = {
+					C20F740E1D96099600603B70 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GLEGE67FN8;
+						ProvisioningStyle = Automatic;
+					};
+					C20F74221D96099600603B70 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GLEGE67FN8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C20F740E1D96099600603B70;
+					};
+					C20F742D1D96099600603B70 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GLEGE67FN8;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C20F740E1D96099600603B70;
+					};
+				};
+			};
+			buildConfigurationList = C20F740A1D96099600603B70 /* Build configuration list for PBXProject "Gitnoob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C20F74061D96099600603B70;
+			productRefGroup = C20F74101D96099600603B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C20F740E1D96099600603B70 /* Gitnoob */,
+				C20F74221D96099600603B70 /* GitnoobTests */,
+				C20F742D1D96099600603B70 /* GitnoobUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C20F740D1D96099600603B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20F741D1D96099600603B70 /* LaunchScreen.storyboard in Resources */,
+				C20F741A1D96099600603B70 /* Assets.xcassets in Resources */,
+				C20F74181D96099600603B70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20F74211D96099600603B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20F742C1D96099600603B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C20F740B1D96099600603B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20F74151D96099600603B70 /* ViewController.swift in Sources */,
+				C20F74131D96099600603B70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20F741F1D96099600603B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20F74281D96099600603B70 /* GitnoobTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C20F742A1D96099600603B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20F74331D96099600603B70 /* GitnoobUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C20F74251D96099600603B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C20F740E1D96099600603B70 /* Gitnoob */;
+			targetProxy = C20F74241D96099600603B70 /* PBXContainerItemProxy */;
+		};
+		C20F74301D96099600603B70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C20F740E1D96099600603B70 /* Gitnoob */;
+			targetProxy = C20F742F1D96099600603B70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C20F74161D96099600603B70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20F74171D96099600603B70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C20F741B1D96099600603B70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C20F741C1D96099600603B70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C20F74351D96099600603B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C20F74361D96099600603B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C20F74381D96099600603B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLEGE67FN8;
+				INFOPLIST_FILE = Gitnoob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abiemdesign.Gitnoob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C20F74391D96099600603B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GLEGE67FN8;
+				INFOPLIST_FILE = Gitnoob/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abiemdesign.Gitnoob;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C20F743B1D96099600603B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GLEGE67FN8;
+				INFOPLIST_FILE = GitnoobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abiemdesign.GitnoobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gitnoob.app/Gitnoob";
+			};
+			name = Debug;
+		};
+		C20F743C1D96099600603B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GLEGE67FN8;
+				INFOPLIST_FILE = GitnoobTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abiemdesign.GitnoobTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gitnoob.app/Gitnoob";
+			};
+			name = Release;
+		};
+		C20F743E1D96099600603B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GLEGE67FN8;
+				INFOPLIST_FILE = GitnoobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abiemdesign.GitnoobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gitnoob;
+			};
+			name = Debug;
+		};
+		C20F743F1D96099600603B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GLEGE67FN8;
+				INFOPLIST_FILE = GitnoobUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abiemdesign.GitnoobUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Gitnoob;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C20F740A1D96099600603B70 /* Build configuration list for PBXProject "Gitnoob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20F74351D96099600603B70 /* Debug */,
+				C20F74361D96099600603B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C20F74371D96099600603B70 /* Build configuration list for PBXNativeTarget "Gitnoob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20F74381D96099600603B70 /* Debug */,
+				C20F74391D96099600603B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C20F743A1D96099600603B70 /* Build configuration list for PBXNativeTarget "GitnoobTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20F743B1D96099600603B70 /* Debug */,
+				C20F743C1D96099600603B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C20F743D1D96099600603B70 /* Build configuration list for PBXNativeTarget "GitnoobUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C20F743E1D96099600603B70 /* Debug */,
+				C20F743F1D96099600603B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C20F74071D96099600603B70 /* Project object */;
+}
